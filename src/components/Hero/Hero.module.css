@@ -1,0 +1,125 @@
+@media screen and (min-width: 428px) {
+  .hero {
+    min-height: 100vh;
+    width: 428px;
+    background-image: url("../../images/Cup_mob.png"),
+      url("../../images/Bg_mob.png"), url("../../images/Cup_light_mob.svg");
+    background-repeat: no-repeat;
+    background-position: 81px top, right 145.72px, 48px 0px;
+    margin: 0 auto;
+
+    padding-top: 407px;
+  }
+
+  .heroTitle {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 109%;
+    letter-spacing: -0.03em;
+    color: #fff;
+
+    /* margin-top: 407px; */
+  }
+
+  .heroTitle::before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 111px;
+    width: 200px;
+    height: 80px;
+    background: url("../../images/Hero_title_light.png") no-repeat;
+  }
+
+  .heroTitle {
+    position: relative;
+  }
+
+  .heroTitleSpan {
+    background: linear-gradient(223deg, #237249 0%, #35c66b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .heroText {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 163%;
+    letter-spacing: -0.02em;
+    color: #d9d9d9;
+
+    margin-top: 36.2px;
+  }
+
+  .btnList {
+    margin-top: 36px;
+
+    display: flex;
+    gap: 10.97px;
+  }
+
+  .selectBtn {
+    border-radius: 56px;
+    border-width: 1px;
+    width: 223px;
+    height: 50px;
+
+    background: linear-gradient(210deg, #237249 0%, #35c66b 100%);
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 146%;
+    letter-spacing: -0.02em;
+    color: #fff;
+  }
+
+  .moreBtn {
+    border-radius: 56px;
+    border-width: 1px;
+    width: 112px;
+    height: 50px;
+
+    background: #121517;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 146%;
+    letter-spacing: -0.03em;
+    color: #d9d9d9;
+  }
+
+  .infoList {
+    margin-top: 36px;
+    display: flex;
+    gap: 30.84px;
+  }
+
+  .infoListItem {
+    max-width: 84.98px;
+    max-height: 79.92px;
+  }
+
+  .infoListText {
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 109%;
+    letter-spacing: -0.03em;
+    color: #fff;
+  }
+
+  .infoListSpan {
+    background: linear-gradient(244deg, #237249 0%, #35c66b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .infoListTextSpan {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 144%;
+    letter-spacing: -0.02em;
+    color: #d9d9d9;
+  }
+}
