@@ -11,7 +11,9 @@ export default function Header() {
           <img src={Logo} alt="Logo" />
         </a>
         <nav>
-          <img src={Menu} alt="Menu" />
+          <button className={css.menuBtn}>
+            <img src={Menu} alt="Menu" />
+          </button>
         </nav>
       </div>
     </header>
