@@ -1,0 +1,67 @@
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.featuresInfo {
+  position: relative;
+  border-radius: 27px;
+  width: 218px;
+  height: 602px;
+  margin: 0 auto;
+  overflow: visible;
+  z-index: 0;
+  background-image: url("../../images/featues_shadow_mob.png");
+  background-repeat: no-repeat;
+
+  background: linear-gradient(
+    230deg,
+    #fff 3.94%,
+    #e5e5e5 64.08%,
+    #fbfbfb 88.62%
+  );
+
+  padding-top: 121px;
+}
+
+.featuresInfo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  top: -64px;
+  right: -31px;
+  background: url(/src/images/Feature_info_sticker_mob.png) no-repeat;
+  background-position: 149px top;
+
+  z-index: 1; /* слой поверх */
+}
+
+.featureList {
+}
+
+.featureListItem {
+}
+
+.featureListItemTitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: -0.02em;
+  color: #121517;
+}
+
+.featureListItemText {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 163%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(18, 21, 23, 0.9);
+}
