@@ -1,5 +1,5 @@
 @import "modern-normalize/modern-normalize.css";
-@import "./src/styles/vars.css";
+@import "/src/styles/vars.css";
 
 h1,
 h2,
@@ -19,6 +19,13 @@ ul {
 body {
   padding-bottom: 25px;
 }
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* или clip, если не нужна поддержка старых браузеров */
+}
 
 :root {
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -35,6 +42,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  scrollbar-gutter: stable both-edges;
 }
 
 img {
