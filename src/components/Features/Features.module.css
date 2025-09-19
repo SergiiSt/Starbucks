@@ -57,6 +57,34 @@
   border-radius: 100%;
   background: linear-gradient(245deg, #237249 0%, #35c66b 100%);
   box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.39);
+
+  position: relative;
+}
+
+.heartIcon {
+  position: absolute;
+  top: 11.5%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+
+.rocketIcon {
+  position: absolute;
+  top: 46%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+
+  width: 127px;
+  height: 124px;
+}
+
+.moneyIcon {
+  position: absolute;
+  top: 76.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 123.6px;
+  height: 90px;
 }
 
 .featureListItemTitle {
@@ -65,6 +93,7 @@
   line-height: 163%;
   letter-spacing: -0.02em;
   color: #121517;
+  margin-top: 15px;
 }
 
 .featureListItemText {

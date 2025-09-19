@@ -1,6 +1,10 @@
 import css from "./Features.module.css";
 import heartMobx2 from "../../images/heart_mob_x2.png";
-import heartMob from "../../images/heart_mob.jpg";
+import heartMob from "../../images/heart_mob.png";
+import rocketMobx2 from "../../images/rocket_mob_x2.png";
+import rocketMob from "../../images/rocket_mob.png";
+import moneyMobx2 from "../../images/money_mob_x2.png";
+import moneyMob from "../../images/money_mob.png";
 
 export default function Features() {
   return (
@@ -12,7 +16,7 @@ export default function Features() {
             <li className={css.featureListItem}>
               <div>
                 <div className={css.circle}></div>
-                <picture>
+                <picture className={css.heartIcon}>
                   <source
                     srcSet={heartMobx2}
                     media="(max-width: 1023px) and (min-resolution: 2dppx)"
@@ -22,7 +26,7 @@ export default function Features() {
                     src={heartMob}
                     alt="Heart"
                     width={86}
-                    height={86} // подставь реальные размеры
+                    height={86}
                     loading="lazy"
                     decoding="async"
                   />
@@ -36,6 +40,21 @@ export default function Features() {
             <li className={css.featureListItem}>
               <div>
                 <div className={css.circle}></div>
+                <picture className={css.rocketIcon}>
+                  <source
+                    srcSet={rocketMobx2}
+                    media="(max-width: 1023px) and (min-resolution: 2dppx)"
+                  />
+                  <source srcSet={rocketMob} media="(max-width: 1023px)" />
+                  <img
+                    src={rocketMob}
+                    alt="Rocket"
+                    width={122}
+                    height={118}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
               </div>
               <h3 className={css.featureListItemTitle}>Fast</h3>
               <p className={css.featureListItemText}>
@@ -45,6 +64,21 @@ export default function Features() {
             <li className={css.featureListItem}>
               <div>
                 <div className={css.circle}></div>
+                <picture className={css.moneyIcon}>
+                  <source
+                    srcSet={moneyMobx2}
+                    media="(max-width: 1023px) and (min-resolution: 2dppx)"
+                  />
+                  <source srcSet={moneyMob} media="(max-width: 1023px)" />
+                  <img
+                    src={moneyMob}
+                    alt="Money"
+                    width={122}
+                    height={118}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
               </div>
               <h3 className={css.featureListItemTitle}>Available</h3>
               <p className={css.featureListItemText}>
