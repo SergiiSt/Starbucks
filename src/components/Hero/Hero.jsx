@@ -5,12 +5,12 @@ export default function Hero() {
     <section className={css.hero}>
       <div className="container">
         <h1 className={css.heroTitle}>
-          New Cafe <br />
-          by <span className={css.heroTitleSpan}>StarBucks</span>
+          New Cafe <br /> by{" "}
+          <span className={css.heroTitleSpan}>StarBucks</span>
         </h1>
         <p className={css.heroText}>
-          Have time to buy the most harmonious drinks in the <br /> new
-          Starbucks coffee and don't forget about the discount!
+          Have time to buy the most harmonious drinks in the new Starbucks
+          coffee and don't forget about the discount!
         </p>
         <ul className={css.btnList}>
           <li>
