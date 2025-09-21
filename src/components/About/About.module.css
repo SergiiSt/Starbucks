@@ -1,0 +1,19 @@
+.about {
+  background-image: url("../../images/about_make_bg_mob.png"),
+    url("../../images/Feature_info_sticker_mob.png"),
+    url("../../images/about_bg_mob.png");
+  background-size: 163px 240px, 112px 112px, contain;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 23px 79px, 259px 117px, top right;
+
+  height: 1280px;
+  max-width: 428px;
+  padding-top: 69px;
+  margin: 0 auto;
+}
+
+.makeImg {
+  width: 163px;
+  height: 240px;
+  /* margin-left: 38.79px; */
+}
